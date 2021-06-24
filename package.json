@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-api-metta-social",
+  "version": "1.0.0",
+  "description": "Coding Assignment for Backend Developer for Metta Social.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drigio/pokemon-api-metta-social.git"
+  },
+  "author": "Gaurav Kondhare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drigio/pokemon-api-metta-social/issues"
+  },
+  "homepage": "https://github.com/drigio/pokemon-api-metta-social#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7"
+  }
+}
