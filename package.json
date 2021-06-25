@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Coding Assignment for Backend Developer for Metta Social.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "serve": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +20,8 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "lodash": "^4.17.21",
     "mongoose": "^5.12.14",
     "nodemon": "^2.0.7"
   }

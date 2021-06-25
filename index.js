@@ -6,7 +6,6 @@ const startServer = async () => {
     const { server } = await initServer();
     server.listen(
       parseInt(SERVER_PORT),
-      "0.0.0.0",
       console.log(`Server started on port ${SERVER_PORT} successfully.`)
     );
   } catch (e) {
